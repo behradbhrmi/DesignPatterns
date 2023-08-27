@@ -29,8 +29,11 @@ namespace Learning.DesignPatterns.Factory
             //else if (selectedOption == "2")
             //    fighterType = "bazooka";
             var playerBuilder = new PlayerBuilder();
-            var player = playerBuilder.WithContactInfo("yazd", "09982837", "345345")
-                .WithIdentityInfo("alex", "doe", "abd123")
+            //var player = playerBuilder.WithContactInfo("yazd", "09982837", "345345")
+            //    .WithIdentityInfo("alex", "doe", "abd123")
+            //    .Build();
+            var player = playerBuilder.WithIdentityInfo("", "", "")
+                .WithContactInfo("", "", "")
                 .Build();
 
             var gamePlay = new GamePlay();
