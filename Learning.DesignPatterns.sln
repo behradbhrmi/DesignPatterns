@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.33906.173
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learning.DesignPatterns.Factory", "Learning.DesignPatterns.Factory\Learning.DesignPatterns.Factory.csproj", "{61F4EE7F-3336-4D55-8AB8-2914A5CEFF87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Learning.DesignPatterns.Factory", "Learning.DesignPatterns.Factory\Learning.DesignPatterns.Factory.csproj", "{61F4EE7F-3336-4D55-8AB8-2914A5CEFF87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{FC925950-03FB-486C-A9FB-353BE005685A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject1", "TestProject1\TestProject1.csproj", "{FC925950-03FB-486C-A9FB-353BE005685A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Learning.DesignPatterns.Mediator", "Learning.DesignPatterns.Mediator\Learning.DesignPatterns.Mediator.csproj", "{D362221A-E8E2-46A4-BF18-E6F319FBEDFA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Learning.DesignPatterns.Observer", "Learning.DesignPatterns.Observer\Learning.DesignPatterns.Observer.csproj", "{70F3E583-7385-4D92-94A5-5D9B77D896B9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Learning.DesignPatterns.SmsProvider.Factory", "Learning.DesignPatterns.SmsProviderFactory\Learning.DesignPatterns.SmsProvider.Factory.csproj", "{3C26A048-AF33-452B-B26D-60E28E21A0D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{FC925950-03FB-486C-A9FB-353BE005685A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC925950-03FB-486C-A9FB-353BE005685A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC925950-03FB-486C-A9FB-353BE005685A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D362221A-E8E2-46A4-BF18-E6F319FBEDFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D362221A-E8E2-46A4-BF18-E6F319FBEDFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D362221A-E8E2-46A4-BF18-E6F319FBEDFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D362221A-E8E2-46A4-BF18-E6F319FBEDFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70F3E583-7385-4D92-94A5-5D9B77D896B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70F3E583-7385-4D92-94A5-5D9B77D896B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70F3E583-7385-4D92-94A5-5D9B77D896B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70F3E583-7385-4D92-94A5-5D9B77D896B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C26A048-AF33-452B-B26D-60E28E21A0D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C26A048-AF33-452B-B26D-60E28E21A0D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C26A048-AF33-452B-B26D-60E28E21A0D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C26A048-AF33-452B-B26D-60E28E21A0D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
